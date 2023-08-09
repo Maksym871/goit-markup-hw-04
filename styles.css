@@ -418,11 +418,11 @@ li {
 .customers {
   padding-bottom: 120px;
 }
-.customers-hov {
+.customers-hov > use {
   margin-top: 18px;
   margin-left: 32px;
 }
-.customers-hov > svg:hover,
+.customers-hov:hover,
 :focus {
   fill: var(--pressed-state, #404bbf);
 }
