@@ -391,7 +391,7 @@ li {
 }
 .media-icon-round:hover,
 :focus {
-  background-color: var(--success, #31d0aa);
+  background-color: var(--success, #404bbf);
 }
 .media-footer-round {
   width: 40px;
@@ -408,7 +408,7 @@ li {
   background-color: var(--success, #31d0aa);
 }
 .customers {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .customers-hov {
   margin-top: 18px;
@@ -417,7 +417,6 @@ li {
 .customers-hov:hover,
 :focus {
   fill: var(--pressed-state, #404bbf);
-  border: 1px solid var(--pressed-state, #404bbf);
 }
 .header-customers {
   font-size: 36px;
@@ -429,6 +428,7 @@ li {
   text-align: center;
   margin-bottom: 72px;
   padding: 120px 0;
+  margin: 0;
 }
 .icon-border {
   fill: var(--subtle-text, #8e8f99);
