@@ -418,9 +418,8 @@ li {
 .customers {
   padding-bottom: 120px;
 }
-.customers-hov > use {
-  margin-top: 18px;
-  margin-left: 32px;
+.customers-hov {
+  fill: var(--subtle-text, #8e8f99);
 }
 .customers-hov:hover,
 :focus {
